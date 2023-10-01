@@ -1,12 +1,12 @@
 export const NavBar = () => {
     return (
-        <nav className='flex w-1/2 justify-around mr-10 text-white tracking-widest text-xs'>
-            <p>СТУДІЯ</p>
-            <p>НАПРЯМКИ</p>
-            <p>КОМАНДА</p>
-            <p>РОЗКЛАД</p>
-            <p>ЦІНИ</p>
-            <p>КОНТАКТИ</p>
+        <nav className='flex justify-around items-center text-white tracking-widest h-14 w-[60%]'>
+            <p>Студія</p>
+            <p>Напрямки</p>
+            <p>Команда</p>
+            <p>Розклад</p>
+            <p>Ціни</p>
+            <p>Контакти</p>
         </nav>
     );
 };
