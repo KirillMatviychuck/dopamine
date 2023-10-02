@@ -10,9 +10,9 @@ export const Header = () => {
     return (
         <header className='flex flex-col justify-between items-center w-full z-10 bg-black shadow-2xl shadow-black'>
             <div className='flex justify-between w-full'>
-                <HeaderContact image={locationMarker} title='КИЇВ, ТРУСКАВЕЦЬКА 6-А' margin='1' />
+                <HeaderContact image={locationMarker} title='КИЇВ, ТРУСКАВЕЦЬКА 6-А' margin />
                 <HeaderLogo />
-                <HeaderContact image={phoneICO} title='+38(097)-241-5253' margin='0' />
+                <HeaderContact image={phoneICO} title='+38(097)-241-5253' margin={false} />
             </div>
             <NavBar />
         </header>
