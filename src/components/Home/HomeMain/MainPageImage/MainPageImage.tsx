@@ -5,7 +5,7 @@ export const MainPageImage = () => {
     return (
         <div className='w-1/2 h-full flex justify-center items-center'>
             <div className='w-[720px] h-[720px]'>
-                <div className={'flex justify-center items-center w-full h-full rounded-full relative "animate-[wiggle_4s_ease-in-out_infinite]"'}>
+                <div className={'flex justify-center items-center w-full h-full rounded-full relative animate-[wiggle_4s_ease-in-out_infinite]'}>
                     <span className='absolute w-full h-full rounded-full bg-purple-500 blur-lg'></span>
                     <span className='absolute w-full h-full rounded-full bg-purple-500'></span>
                     <div className="after:content-[''] absolute w-[680px] h-[680px] bg-gray-800 rounded-full">
